@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-   "dev":"npx nodemon index.js",
+   "dev": "npx babel-node index.js",
    "build":"npm i"
   },
   "keywords": [],
