@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+#card2 {
+  border: 2px solid grey;
+  box-shadow: 3px 10px 3px 3px lightgray;
+}
+#main {
+  padding: 4rem;
+}
+#main2 {
+  padding: 3rem;
+  border: 2px solid white;
+}
+#footer {
+  background-color: black;
+  padding: 3rem;
+
+  color: whitesmoke;
+  font-weight: 600;
+  border-radius: 4%;
+  box-shadow: 3px 1px grey;
+}
+
+#form {
+  padding: 2rem;
+  background-color: whitesmoke;
+  border: 2px solid grey;
+  box-shadow: 5px 5px grey;
+  border-radius: 4%;
+}
+#card3 {
+  padding: 2rem;
+}
+#card4 {
+  background-color: whitesmoke;
+}
+#card5 {
+  background-color: whitesmoke;
+}
+
+#about {
+  padding: 3rem;
+}
+#about2 {
+  padding: 2rem;
+}
