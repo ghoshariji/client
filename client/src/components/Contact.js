@@ -123,6 +123,7 @@ const Contact = () => {
                 </p>
                 <a href="/" className="btn btn-primary">
                   Go somewhere
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo temporibus voluptatibus illum soluta eaque sed, repudiandae adipisci aliquam provident unde!
                 </a>
               </div>
             </div>
