@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+const baseurl="https://porfolio-cawh.onrender.com"
 
 const Contact = () => {
   const [user, setUser] = useState({
@@ -20,7 +21,7 @@ const Contact = () => {
     e.preventDefault();
     const {name, phone, about} = user;
 
-    const res = await fetch("http://localhost:5000/contact", {
+    const res = await fetch(`${baseurl}/contact`, {
       method: "POST",
       headers: {
         "Content-type": "application/json",
