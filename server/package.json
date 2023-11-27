@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-   "dev": "npx babel-node index.js",
-   "build":"npm i"
+    "build": "cd server && npm install && cd ../client && npm install && npm run build",
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit "
   },
   "keywords": [],
   "author": "",
