@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-"build": "cd server && npm install && cd ../client && npm install && npm run build",
-"start":"node server/index.js",
-"test":"echo \"Error: no test specified\" && exit "
+    "build": "cd server && npm install && cd ../client && npm install && npm run build",
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit "
   },
   "keywords": [],
   "author": "",
